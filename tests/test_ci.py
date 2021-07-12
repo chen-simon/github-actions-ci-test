@@ -7,3 +7,7 @@ def test_ci() -> None:
 def test_ci_math() -> None:
     """ Test CI assert arithmetic """
     assert 2 + 2 == 4
+
+def test_fail() -> None:
+    """ Let's see what happens """
+    assert False
