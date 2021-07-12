@@ -10,4 +10,4 @@ def test_ci_math() -> None:
 
 def test_fail() -> None:
     """ Let's see what happens """
-    assert False
+    assert not not not False and (True or False)
